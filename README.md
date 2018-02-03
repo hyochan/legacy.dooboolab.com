@@ -1,5 +1,5 @@
 # DOOBOOLAB.COM
-# MADE FROM REACT-TYPESCRIPT-WEBPACK-STARTER
+## MADE FROM REACT-TYPESCRIPT-WEBPACK-STARTER
 > Branch project for desktop ui
 * This is different prototype comparing to the master branch and will not be merged and will be left standalone. This is for those of you who wants more example for responsive react web project.
 
