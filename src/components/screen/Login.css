@@ -1,0 +1,57 @@
+@import '../../root.css';
+
+.wrapper {
+  background: #333;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  @media (--desktop) {
+    grid-template-columns: 1fr 523px 1fr;
+    grid-template-rows: 1fr 378px 1fr;
+  }
+}
+
+.box {
+  border-radius: 4px;
+  height: 55%;
+  margin: 16px;
+  background-color: white;
+  padding: 38px 55px 47px 47px;
+  @media (--desktop) {
+    margin: 0;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 2/-2;
+  }
+}
+
+.txtHead {
+  color: #333;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  @media (--desktop) {
+    margin: 0;
+  }
+}
+
+.btnWrapper {
+  margin-top: 36px;
+  height: 102px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: space-between;
+  @media (--desktop) {
+    height: 52px;
+    margin-top: 40px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../root.css';
+
+.roundBtn {
+  margin-top: 8px;
+  border-radius: 20px;
+  border-width: thin;
+  height: 47px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+
+  display: grid;
+  align-content: center;
+  align-items: center;
+  &:hover {
+    background-color: white;
+    color: #333;
+    border: #333 solid;
+    border-width: thin;
+  }
+}

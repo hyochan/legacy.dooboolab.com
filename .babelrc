@@ -1,0 +1,29 @@
+{
+  "presets": ["env", "es2015", "react"],
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-decorators-legacy",
+        "transform-react-jsx-source"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src/index"],
+      "alias": {
+        "@apis/*": ["./src/apis/"],
+        "@screen/*": ["./src/components/screen/"],
+        "@navigation/*": ["./src/components/navigation/"],
+        "@models/*": ["./src/models/"],
+        "@stores/*": ["./src/stores/"],
+        "@utils/*": ["./src/utils/"],
+        "@assets/*": ["./assets/"],
+        "@constants/*" : ["./src/constants/"],
+        "@shared/*": ["./src/components/shared/"],
+        "@App_dev": ["./App_dev"],
+        "@app": ["./src/app"]
+      }
+    }]
+  ]
+}

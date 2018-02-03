@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "allowJs": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "skipLibCheck": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strict": true,
+    "target": "es5",
+    "paths": {
+      "@apis/*": ["./src/apis/*"],
+      "@screen/*": ["./src/components/screen/*"],
+      "@navigation/*": ["./src/components/navigation/*"],
+      "@models/*": ["./src/models/*"],
+      "@stores/*": ["./src/stores/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@assets/*": ["./assets/*"],
+      "@constants/*" : ["./src/constants/*"],
+      "@shared/*": ["./src/components/shared/*"],
+      "@App_dev": ["./App_dev"],
+      "@app": ["./src/app"]
+    }
+  },
+  "include": [
+    // "src/**/*.ts",
+    // "src/**/*.tsx",
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.tsx",
+    "**/*.test.tsx"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}

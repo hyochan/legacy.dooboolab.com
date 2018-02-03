@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TxtInputLabel component test component matches with its snapshot 1`] = `
+<div
+  className="wrapper"
+  style={
+    Object {
+      "marginTop": 18,
+    }
+  }
+>
+  <p
+    className="label"
+  >
+    EMAIL
+  </p>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="email"
+    value="mock-email"
+  />
+</div>
+`;

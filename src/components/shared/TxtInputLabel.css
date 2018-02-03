@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.label {
+  margin: 7px;
+  font-size: 18px;
+  text-align: left;
+  color: #8c8c8c;
+}
+
+.input {
+  color: #515151;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 1px #d0d0d0;
+  padding: 9px 15px;
+  ::placeholder { color: #ccc; }
+}
