@@ -12,20 +12,14 @@ module.exports = {
     publicPath: '/assets',
   },
   plugins: [
-    new DashboardPlugin(),
+    new webpack.optimize.UglifyJsPlugin(),
   ],
   resolve: {
     modules: [
       './node_modules',
+      './functions',
     ],
     extensions: ['.ts', '.tsx', '.js', 'jsx'],
-  },
-  devServer: {
-    contentBase: __dirname + '/dist/',
-    inline: true,
-    host: 'localhost',
-    port: 8080,
-    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -87,5 +81,4 @@ module.exports = {
       }
     ]
   },
-  devtool: 'inline-source-map',
 };
