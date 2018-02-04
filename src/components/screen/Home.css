@@ -134,6 +134,7 @@
   align-self: stretch;
   & .header {
     margin: 20px;
+    padding: 0 30px;
     width: 100%;
     color: #fff;
 
@@ -355,8 +356,8 @@
         margin-right: 60px;
       }
       & .img-iphonehand {
-        width: 16vw;
-        height: 20vw;
+        width: 18vw;
+        height: 26vw;
       }
     }
   }
@@ -495,106 +496,97 @@
   Product Section
 ---------------------*/
 .product {
-  display: flex;
-  flex-direction: row;
   align-self: stretch;
-  justify-content: space-around;
   margin-top: 30px;
-  padding: 30px;
-  & .left {
-    z-index: 100;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50px;
-    & .icn-arrowbackward {
-      width: 24px;
-      height: 24px;
-      object-fit: contain;
-    }
-  }
+  padding-bottom: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
   & .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95vw;
-    height: 100%;
-    & .carousel-3d-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 95vw;
-      height: 620px !important;
-      margin: 0;
-      & .carousel-3d-slider {
-        width: 800px !important;
-        height: 420px !important;
-        & .carousel-3d-slide{
-          background: #fff;
-          overflow: visible;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          border: 0;
-          & .current {
-            width: 800px !important;
-            height: 420px !important;
-            background: #fff;
-          }
-        }
-      }
-      & .carousel-3d-controls {
-        /* ?? NOT WORKING */
-      }
-    }
+    margin-top: 120px;
+
     & .title {
       height: 18px;
-      font-size: 18px;
+      font-size: 10px;
       line-height: 1.0;
       color: #b03ee5;
+
+      @media (--desktop) {
+        font-size: 18px;
+      }
     }
     & .info {
-      margin-top: 56px;
-      width: 565px;
-      height: 36px;
-      font-size: 32px;
+      margin-top: 20px;
+      font-size: 16px;
       line-height: 1.0;
       text-align: center;
+
+      @media (--desktop) {
+        margin-top: 22px;
+        font-size: 32px;
+      }
     }
     & .description {
-      margin-top: 32px;
-      width: 560px;
-      height: 84px;
-      font-size: 18px;
+      font-size: 10px;
       line-height: 1.56;
       text-align: center;
       color: #a2a2a2;
+
+      @media (--desktop) {
+        font-szie: 18px;
+      }
+
+      & .img-iphone {
+        padding-top: 25px;
+        width: 80%;
+        object-fit: contain;
+
+        @media (--desktop) {
+          padding-top: 56px;
+          font-szie: 32px;
+        }
+      }
     }
     & .btns {
-      margin-top: 200px;
+      margin-top: 20px;
+      height: 24px;
+
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      height: 48px;
-      & a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 8px;
-        width: 200px;
+
+      @media (--desktop) {
         height: 48px;
+      }
+      & a {
+        margin: 8px;
+        width: 160px;
+        height: 32px;
         opacity: 0.54;
         border-radius: 100px;
         background-color: #b13ee5;
         box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
-        font-size: 18px;
+        font-size: 10px;
         line-height: 1.0;
         text-align: center;
         color: #ffffff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (--desktop) {
+          font-size: 18px;
+          height: 48px;
+          width: 200px;
+        }
       }
     }
   }
@@ -650,7 +642,7 @@
     }
     & .box {
       width: 200px;
-      height: 340px;
+      height: 365px;
       background-color: #ffffff;
 
       display: flex;
@@ -658,8 +650,8 @@
       align-items: center;
 
       & .pic {
-        width: 72px;
-        height: 72px;
+        width: 68px;
+        height: 82px;
         margin-top: 30px;
         border-radius: 50%;
         background-color: #9db2f7;

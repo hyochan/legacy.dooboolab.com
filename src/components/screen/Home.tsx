@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect } from 'react-router-dom';
 import CooniBtn from '@shared/CooniBtn';
 import FontAwesome from 'react-fontawesome';
-
 import './Home.css';
 
 export class Home extends Component<any, any> {
@@ -129,11 +128,45 @@ export class Home extends Component<any, any> {
           </div>
         </section>
 
+        <section className='product'>
+          <div className='content'>
+            <p className='title'>두부랩의 작품 01</p>
+            <p className='info'>BooKoo</p>
+            <p className='description'>
+              <img
+                className='img-iphone'
+                src={require('@assets/images/BooKooRelease.png')}
+              />
+            </p>
+            <div className='btns'>
+              <a href='https://play.google.com/store/apps/details?id=com.dooboolab.bookoo'>Android</a>
+              <a href='https://itunes.apple.com/us/app/bookoo/id1276062364?l=ko&ls=1&mt=8'>IOS</a>
+            </div>
+          </div>
+          <div className='content'>
+            <p className='title'>두부랩의 작품 02</p>
+            <p className='info'>COONI</p>
+            <p className='description'>
+              <img
+                className='img-iphone'
+                src={require('@assets/images/CooniRelease.png')}
+              />
+            </p>
+            <div className='btns'>
+              <a href='https://play.google.com/store/apps/details?id=com.cooni.app'>Android</a>
+              <a href='https://itunes.apple.com/us/app/cooni/id1315512929?ls=1&mt=8'>IOS</a>
+            </div>
+          </div>
+        </section>
+
         <section className='member'>
           <p className='title'>두부랩의 구성원</p>
           <div className='content'>
             <div className='box'>
-              <div className='pic'/>
+              <img
+                className='pic'
+                src={require('@assets/images/hyochan.jpg')}
+              />
               <p className='name'>Hyochan Jang</p>
               <p className='position'>Software Engineer</p>
               <p className='introduction'>Korea Univ.<br/>KT R&D Center<br/>MOIN<br/>QNV</p>
