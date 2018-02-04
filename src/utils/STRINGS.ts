@@ -52,16 +52,16 @@ and ideas by finding the inconveniences facing people in daily life.`,
     FREE_TALK: '자유롭게 대화해요.',
     FREE_TALK_DESCRIPTION: '새로운 구성원을 찾고 있습니다. 두부랩의 작업이 흥미롭고 관심이\n있으시다면 언제든 주저말고 자유롭게 이메일 주세요.',
   },
-  ja: { // Japanese
-  },
-  zh: { // Chinese
-  },
-  es: { // Spanish
-  },
-  fr: { // French
-  },
-  id: { // Indonesian
-  },
+  // ja: { // Japanese
+  // },
+  // zh: { // Chinese
+  // },
+  // es: { // Spanish
+  // },
+  // fr: { // French
+  // },
+  // id: { // Indonesian
+  // },
 };
 
   // pt-pt: { // Portuguese
