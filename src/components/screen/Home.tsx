@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect } from 'react-router-dom';
 import CooniBtn from '@shared/CooniBtn';
 import FontAwesome from 'react-fontawesome';
+import Carousel from 'nuka-carousel';
 import './Home.css';
 
 export class Home extends Component<any, any> {
@@ -167,34 +168,39 @@ export class Home extends Component<any, any> {
         </section>
 
         <section id='product' className='product'>
-          <div className='content'>
-            <p className='title'>{ getString('DOOBOOLAB_WORK') } 01</p>
-            <p className='info'>BooKoo</p>
-            <p className='description'>
-              <img
-                className='img-iphone'
-                src={require('@assets/images/BooKooRelease.png')}
-              />
-            </p>
-            <div className='btns'>
-              <a href='https://play.google.com/store/apps/details?id=com.dooboolab.bookoo'>Android</a>
-              <a href='https://itunes.apple.com/us/app/bookoo/id1276062364?l=ko&ls=1&mt=8'>IOS</a>
+          <Carousel
+            wrapAround={true}
+            width='97vw'
+          >
+            <div className='content'>
+              <p className='title'>{ getString('DOOBOOLAB_WORK') } 01</p>
+              <p className='info'>BooKoo</p>
+              <div className='btns'>
+                <a href='https://play.google.com/store/apps/details?id=com.dooboolab.bookoo'>Android</a>
+                <a href='https://itunes.apple.com/us/app/bookoo/id1276062364?l=ko&ls=1&mt=8'>IOS</a>
+              </div>
+              <p className='description'>
+                <img
+                  className='img-iphone'
+                  src={require('@assets/images/BooKooRelease.png')}
+                />
+              </p>
             </div>
-          </div>
-          <div className='content'>
-            <p className='title'>{ getString('DOOBOOLAB_WORK') } 02</p>
-            <p className='info'>COONI</p>
-            <p className='description'>
-              <img
-                className='img-iphone'
-                src={require('@assets/images/CooniRelease.png')}
-              />
-            </p>
-            <div className='btns'>
-              <a href='https://play.google.com/store/apps/details?id=com.cooni.app'>Android</a>
-              <a href='https://itunes.apple.com/us/app/cooni/id1315512929?ls=1&mt=8'>IOS</a>
+            <div className='content'>
+              <p className='title'>{ getString('DOOBOOLAB_WORK') } 02</p>
+              <p className='info'>COONI</p>
+              <div className='btns'>
+                <a href='https://play.google.com/store/apps/details?id=com.cooni.app'>Android</a>
+                <a href='https://itunes.apple.com/us/app/cooni/id1315512929?ls=1&mt=8'>IOS</a>
+              </div>
+              <p className='description'>
+                <img
+                  className='img-iphone'
+                  src={require('@assets/images/CooniRelease.png')}
+                />
+              </p>
             </div>
-          </div>
+          </Carousel>
         </section>
 
         <section id='member' className='member'>
