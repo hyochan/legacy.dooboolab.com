@@ -18,28 +18,46 @@ export class Home extends Component<any, any> {
       <div className='container'>
         <section id='hero' className='hero'>
           <header className='header'>
-            <h2 style={ this.props.store.isDesktop ? { marginLeft: '35px' } : { marginLeft: 0 }}>
+            <h2 style={
+              this.props.store.isDesktop
+                ? { marginLeft: '35px' } : { marginLeft: 0 }}
+            >
               <img
                 className='logo'
                 src={require('@assets/icons/logo.png')}
                 srcSet={`
-                ${require('@assets/icons/logo@2x.png')} 2x,
-                ${require('@assets/icons/logo@3x.png')} 3x
+                  ${require('@assets/icons/logo@2x.png')} 2x,
+                  ${require('@assets/icons/logo@3x.png')} 3x
                 `}
               />
             </h2>
             <nav style={ this.props.store.isDesktop ? { marginRight: '35px' } : { marginRight: 0 }}>
-              <li><a href='#company'>소개</a></li>
-              <li><a href='#product'>제품</a></li>
-              <li><a href='#member'>구성원</a></li>
-              <li><a href='#contact'>연락하기</a></li>
+              <li><a href='#company'>
+                { getString('INTRO') }</a>
+              </li>
+              <li><a href='#product'>
+                { getString('PRODUCT') }
+              </a></li>
+              <li><a href='#member'>
+                { getString('MEMBER') }
+              </a></li>
+              <li><a href='#contact'>
+                { getString('CONTACT') }
+              </a></li>
             </nav>
           </header>
-          <h1>유연한 혁신<br/>두부랩에서 시작합니다.</h1>
+          <h1>
+            { getString('FLEXIBLE_INNOVATION') }<br/>
+            { getString('START_WITH_DOOBOOLAB') }
+          </h1>
           <div className='body'>
-            <h3>두부랩은 세상이 필요로 하는 IT서비스를 발굴하는데 그 목적이 있습니다.<br/>시장을 바꿀 잠재력을 가진 아이디어들을 지속적으로 찾아 상용화하는 것이 목표입니다.</h3>
+            <h3 style={{ lineHeight: 0.8 }}>
+              { getString('HEADER_TXT') }
+            </h3>
             <a className='btn-contact' href='mailto:dooboolab@gmail.com'>
-              <div className='txt'>연락하기</div>
+              <div className='txt'>
+                { getString('CONTACT') }
+              </div>
               <div className='right'>
                 <img
                   className='icn-arrowforward'
@@ -66,10 +84,14 @@ export class Home extends Component<any, any> {
         <section id='company' className='company'>
           <div className='intro'>
             <div className='left'>
-              <p className='title'>두부랩 소개</p>
-              <p className='header'>세상이 원하는<br/>서비스를 개발합니다.</p>
+              <p className='title'>
+                { getString('ABOUT_DOOBOOLAB')}
+              </p>
+              <p className='header'>
+                { getString('ABOUT_DOOBOOLAB_HEADER') }
+              </p>
               <p className='body'>
-                우리는 IT기술 개발 전문가들로 이뤄진 그룹입니다.일상 속 마주하는 불편함들을 사용자 관점에서 찾아내어 철학과 아이디어를 바탕으로 지속적으로 서비스를 개발합니다.
+                { getString('ABOUT_DOOBOOLAB_BODY') }
               </p>
             </div>
             <div className='right'>
@@ -85,8 +107,12 @@ export class Home extends Component<any, any> {
             </div>
           </div>
           <div className='philosophy'>
-            <p className='title'>두부랩의 철학</p>
-            <p className='header'>두부랩은 이렇게 합니다.</p>
+            <p className='title'>
+              { getString('PHILOSOPHY_DOOBOOLAB') }
+            </p>
+            <p className='header'>
+              { getString('PHILOSOPHY_DOOBOOLAB_HEADER')}
+            </p>
             <div className='body'>
               <div className='card'>
                 <img
@@ -97,8 +123,12 @@ export class Home extends Component<any, any> {
                     ${require('@assets/icons/icn-ux.png')} 3x,
                   `}
                 />
-                <p className='title'>기획 및 설계</p>
-                <p className='content'>정량적, 정성적 데이터에 기반한 사용자 경험 설계</p>
+                <p className='title'>
+                  { getString('PLANNING_AND_DESIGN') }
+                </p>
+                <p className='content'>
+                  { getString('PLANNING_AND_DESIGN_BODY') }
+                </p>
               </div>
               <div className='card' style={ this.props.store.isDesktop ? { marginLeft: '40px' } : null}>
                 <img
@@ -109,8 +139,12 @@ export class Home extends Component<any, any> {
                     ${require('@assets/icons/icn-dev.png')} 3x,
                   `}
                 />
-                <p className='title'>개발</p>
-                <p className='content'>꼬임방지, 탄탄한 기반중심 개발 및 확장성 고려.</p>
+                <p className='title'>
+                  { getString('DEVELOPMENT') }
+                </p>
+                <p className='content'>
+                  { getString('DEVELOPMENT_BODY') }
+                </p>
               </div>
               <div className='card' style={ this.props.store.isDesktop ? { marginLeft: '40px' } : null}>
                 <img
@@ -121,8 +155,12 @@ export class Home extends Component<any, any> {
                     ${require('@assets/icons/icn-frontend.png')} 3x,
                   `}
                 />
-                <p className='title'>디자인</p>
-                <p className='content'>심미적 안정감은 기본, 단순명료한 언어로 디자인</p>
+                <p className='title'>
+                  { getString('DESIGN') }
+                </p>
+                <p className='content'>
+                  { getString('DESIGN_BODY') }
+                </p>
               </div>
             </div>
           </div>
@@ -130,7 +168,7 @@ export class Home extends Component<any, any> {
 
         <section id='product' className='product'>
           <div className='content'>
-            <p className='title'>두부랩의 작품 01</p>
+            <p className='title'>{ getString('DOOBOOLAB_WORK') } 01</p>
             <p className='info'>BooKoo</p>
             <p className='description'>
               <img
@@ -144,7 +182,7 @@ export class Home extends Component<any, any> {
             </div>
           </div>
           <div className='content'>
-            <p className='title'>두부랩의 작품 02</p>
+            <p className='title'>{ getString('DOOBOOLAB_WORK') } 02</p>
             <p className='info'>COONI</p>
             <p className='description'>
               <img
@@ -160,7 +198,7 @@ export class Home extends Component<any, any> {
         </section>
 
         <section id='member' className='member'>
-          <p className='title'>두부랩의 구성원</p>
+          <p className='title'>{ getString('DOOBOOLAB_MEMBER') }</p>
           <div className='content'>
             <div className='box'>
               <img
@@ -189,11 +227,15 @@ export class Home extends Component<any, any> {
         </section>
 
         <section id='contact' className='contact'>
-          <p className='title'>연락하기</p>
-          <p className='header'>Who’s next?<br/>자유롭게 대화해요.</p>
-          <p className='description'>새로운 구성원을 찾고 있습니다. 두부랩의 작업이 흥미롭고 관심이<br/>있으시다면 언제든 주저말고 자유롭게 이메일 주세요.</p>
+          <p className='title'>
+            { getString('CONTACT') }
+          </p>
+          <p className='header'>Who’s next?<br/>{ getString('FREE_TALK') }</p>
+          <p className='description'>
+            { getString('FREE_TALK_DESCRIPTION') }
+          </p>
           <a className='btn-contact' href='mailto:dooboolab@gmail.com'>
-            <div className='txt'>연락하기</div>
+            <div className='txt'>{ getString('CONTACT') }</div>
             <div className='right'>
               <img
                 className='icn'

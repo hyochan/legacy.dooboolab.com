@@ -159,7 +159,7 @@
     & nav {
       display: flex;
       & li {
-        width: 60px;
+        margin: 0 5px;
         height: 12px;
         font-size: 12px;
         line-height: 1.0;
