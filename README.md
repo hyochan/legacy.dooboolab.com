@@ -31,7 +31,6 @@
 ```text
 app/
 ├─ assets
-│  └─ icons // app icons
 │  └─ images // app images like background images
 ├─ docs // explanation for dev stack we used. (Sorry for Korean)
 ├─ node_modules/

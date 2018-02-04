@@ -60,9 +60,9 @@ module.exports = {
             loader: 'css-loader',
             options: { 
               importLoaders: 1,
-              modules: true,
+              // modules: true,
               // you can remove the comment in above code if you wanna uglify css classnames to scope to specific component
-            }
+            },
           },
           { 
             loader: 'postcss-loader', 
@@ -72,7 +72,7 @@ module.exports = {
                 require('postcss-import')(),
                 require('postcss-cssnext')(),
               ]
-            }
+            },
           },
         ]
       },

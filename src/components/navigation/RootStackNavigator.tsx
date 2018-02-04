@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { inject, observer } from 'mobx-react';
 
-import Login from '@screen/Login';
-import TabNavigator from '@navigation/TabNavigator';
+import Home from '@screen/Home';
 import NotFound from '@screen/NotFound';
 
 @inject('store')
@@ -43,8 +42,7 @@ class RootStackNavigator extends Component<any, any> {
       <BrowserRouter>
         <div style={{ textAlign: 'center' }}>
           <Switch>
-            <Route path='/login' component={Login} />
-            <Route path='/tab' component={TabNavigator} />
+            <Route path='/' component={Home} />
             <Route component={NotFound} />
           </Switch>
         </div>
