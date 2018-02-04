@@ -218,8 +218,14 @@ export class Home extends Component<any, any> {
                   />
                   </i>
                 </a>
-                {/* <i className='fa fa-facebook' aria-hidden='true'></i>
-                <i className='fa fa-pinterest-p' aria-hidden='true'></i> */}
+                <a href='https://github.com/dooboolab'>
+                  <i aria-hidden='true'>
+                  <FontAwesome
+                    className='fa-github'
+                    name='github'
+                  />
+                  </i>
+                </a>
               </div>
             </div>
           </div>
