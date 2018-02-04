@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 100vw;
+  overflow-x: hidden;
 
   & nav {
     list-style: none;
