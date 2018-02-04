@@ -16,7 +16,7 @@ export class Home extends Component<any, any> {
     const { getString } = this.props.store.locale;
     return (
       <div className='container'>
-        <section className='hero'>
+        <section id='hero' className='hero'>
           <header className='header'>
             <h2 style={ this.props.store.isDesktop ? { marginLeft: '35px' } : { marginLeft: 0 }}>
               <img
@@ -63,7 +63,7 @@ export class Home extends Component<any, any> {
           </div>
         </section>
 
-        <section className='company'>
+        <section id='company' className='company'>
           <div className='intro'>
             <div className='left'>
               <p className='title'>두부랩 소개</p>
@@ -128,7 +128,7 @@ export class Home extends Component<any, any> {
           </div>
         </section>
 
-        <section className='product'>
+        <section id='product' className='product'>
           <div className='content'>
             <p className='title'>두부랩의 작품 01</p>
             <p className='info'>BooKoo</p>
@@ -159,7 +159,7 @@ export class Home extends Component<any, any> {
           </div>
         </section>
 
-        <section className='member'>
+        <section id='member' className='member'>
           <p className='title'>두부랩의 구성원</p>
           <div className='content'>
             <div className='box'>
@@ -188,7 +188,7 @@ export class Home extends Component<any, any> {
           <button className='btn'>WHO's NEXT?</button>
         </section>
 
-        <section className='contact'>
+        <section id='contact' className='contact'>
           <p className='title'>연락하기</p>
           <p className='header'>Who’s next?<br/>자유롭게 대화해요.</p>
           <p className='description'>새로운 구성원을 찾고 있습니다. 두부랩의 작업이 흥미롭고 관심이<br/>있으시다면 언제든 주저말고 자유롭게 이메일 주세요.</p>
