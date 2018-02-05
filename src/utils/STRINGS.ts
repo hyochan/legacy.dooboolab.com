@@ -8,21 +8,21 @@ const STRINGS = {
     START_WITH_DOOBOOLAB: 'starts with dooboolab.',
     HEADER_TXT: `We aims to find the IT services that the world needs.\n
 The goal is to consistently find and commercialize ideas that have the potential to change the market.`,
-    ABOUT_DOOBOOLAB: 'About Dooboolab',
+    ABOUT_DOOBOOLAB: 'About dooboolab',
     ABOUT_DOOBOOLAB_HEADER: 'We develop the service\nthat the world wants.',
     ABOUT_DOOBOOLAB_BODY: `We are a group of experts in IT technology development.
 We are constantly developing services based on philosophy
 and ideas by finding the inconveniences facing people in daily life.`,
-    PHILOSOPHY_DOOBOOLAB: 'The philosophy of Dooboolab',
-    PHILOSOPHY_DOOBOOLAB_HEADER: 'Dooboolab does this.',
+    PHILOSOPHY_DOOBOOLAB: 'The philosophy of dooboolab',
+    PHILOSOPHY_DOOBOOLAB_HEADER: 'dooboolab does this.',
     PLANNING_AND_DESIGN: 'Planning and Design',
     PLANNING_AND_DESIGN_BODY: 'Design user experience based on quantitative and qualitative data',
     DEVELOPMENT: 'Development',
     DEVELOPMENT_BODY: 'Consideration of anti-twist, solid base development and scalability.',
     DESIGN: 'Design',
     DESIGN_BODY: 'Aesthetic stability is basic, simple and clear language design',
-    DOOBOOLAB_WORK: 'Dooboolab\'s work',
-    DOOBOOLAB_MEMBER: 'Member of Dooboolab',
+    DOOBOOLAB_WORK: 'dooboolab\'s work',
+    DOOBOOLAB_MEMBER: 'Member of dooboolab',
     FREE_TALK: 'Feel free to talk.',
     FREE_TALK_DESCRIPTION: `We are looking for new members. If you are interested in Tobi Lab\'s work
 \nand are interested, please do not hesitate to email me freely.`,
