@@ -263,7 +263,7 @@
 
   & .intro {
     align-self: stretch;
-    padding-left: 0;
+    padding: 0 20%;
 
     display: flex;
     flex-wrap: wrap;
@@ -272,13 +272,7 @@
     align-items: center;
 
     @media (--desktop) {
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
-
-    @media (--desktop) {
-      flex-wrap: no-wrap;
-      padding-left: 9%;
+      padding: 0 9%;
 
       flex-direction: row;
       justify-content: space-between;
@@ -329,7 +323,7 @@
       }
       & .body {
         margin-top: 12px;
-        width: 60vw;
+        width: 100%;
         height: 70px;
         font-size: 9px;
         line-height: 1.56;
