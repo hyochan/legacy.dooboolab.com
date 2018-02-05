@@ -13,7 +13,7 @@ store.user.checkLoginStatus();
 if (navigator) {
   const userLang: string = navigator.language;
   const localization = new Localization();
-  localization.$LANG = userLang;
+  localization.$LANG = userLang ? userLang.substring(0, 2) : '';
   store.$locale = localization;
 }
 
