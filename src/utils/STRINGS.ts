@@ -6,7 +6,7 @@ const STRINGS = {
     CONTACT: 'Contact',
     FLEXIBLE_INNOVATION: 'Flexible innovation',
     START_WITH_DOOBOOLAB: 'starts with dooboolab.',
-    HEADER_TXT: `We aims to find the IT services that the world needs.\n
+    HEADER_TXT: `We aim to find the IT services that the world needs.\n
 The goal is to consistently find and commercialize ideas that have the potential to change the market.`,
     ABOUT_DOOBOOLAB: 'About dooboolab',
     ABOUT_DOOBOOLAB_HEADER: 'We develop the service\nthat the world wants.',
@@ -24,7 +24,7 @@ and ideas by finding the inconveniences facing people in daily life.`,
     DOOBOOLAB_WORK: 'dooboolab\'s work',
     DOOBOOLAB_MEMBER: 'Member of dooboolab',
     FREE_TALK: 'Feel free to talk.',
-    FREE_TALK_DESCRIPTION: 'We are looking for new members. If you are interested in dooboolab, please do not hesitate to email me freely.',
+    FREE_TALK_DESCRIPTION: 'We are looking for new members. If you are interested in dooboolab,\nplease do not hesitate to contact us through email.',
   },
   ko: { // Korean
     INTRO: '소개',
