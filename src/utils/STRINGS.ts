@@ -24,8 +24,7 @@ and ideas by finding the inconveniences facing people in daily life.`,
     DOOBOOLAB_WORK: 'dooboolab\'s work',
     DOOBOOLAB_MEMBER: 'Member of dooboolab',
     FREE_TALK: 'Feel free to talk.',
-    FREE_TALK_DESCRIPTION: `We are looking for new members. If you are interested in Tobi Lab\'s work
-\nand are interested, please do not hesitate to email me freely.`,
+    FREE_TALK_DESCRIPTION: 'We are looking for new members. If you are interested in dooboolab, please do not hesitate to email me freely.',
   },
   ko: { // Korean
     INTRO: '소개',
