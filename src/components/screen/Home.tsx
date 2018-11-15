@@ -200,6 +200,20 @@ export class Home extends Component<any, any> {
                 />
               </p>
             </div>
+            <div className='content'>
+              <p className='title'>{ getString('DOOBOOLAB_WORK') } 03</p>
+              <p className='info'>foodieon</p>
+              <div className='btns'>
+                <a href='https://play.google.com/store/apps/details?id=com.foodieon.app'>Android</a>
+                <a href='https://itunes.apple.com/kr/app/foodieon-%ED%91%B8%EB%94%94%EC%98%A8/id1424869463?mt=8'>IOS</a>
+              </div>
+              <p className='description'>
+                <img
+                  className='img-iphone'
+                  src={require('@assets/images/FoodieonRelease.png')}
+                />
+              </p>
+            </div>
           </Carousel>
         </section>
 
