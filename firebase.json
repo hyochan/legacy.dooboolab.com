@@ -11,8 +11,10 @@
   },
   "hosting": {
     "public": "dist",
+    "rewrites": [ {
+      "source": "/joinSlack", "function": "joinSlack"
+    } ],
     "ignore": [
-      "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
