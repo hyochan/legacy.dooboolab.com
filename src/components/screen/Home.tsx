@@ -230,7 +230,7 @@ export class Home extends Component<any, any> {
               <p className='introduction'>Korea Univ.<br/>KT R&D Center<br/>MOIN<br/>QNV</p>
               <div className='underline'/>
               <div className='sns'>
-                <a href='https://www.linkedin.com/in/%ED%9A%A8%EC%B0%AC-%EC%9E%A5-8723a5108/'>
+                <a href='https://www.linkedin.com/in/hyochan-jang-8723a5108/'>
                   <i aria-hidden='true'>
                   <FontAwesome
                     className='fa-linkedin'

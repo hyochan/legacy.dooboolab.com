@@ -4,6 +4,7 @@
   "description": "starting react express app with me!",
   "postinstall": "tsc",
   "scripts": {
+    "tsc": "tsc",
     "dev": "webpack-dev-server",
     "start": "webpack-dashboard -- webpack-dev-server -d --hot --config webpack.config.js --watch",
     "test": "jest -u",
