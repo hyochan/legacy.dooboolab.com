@@ -11,9 +11,15 @@
   },
   "hosting": {
     "public": "dist",
-    "rewrites": [ {
-      "source": "/joinSlack", "function": "joinSlack"
-    } ],
+    "rewrites": [
+      {
+        "source": "/joinSlack", "function": "joinSlack"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "ignore": [
       "**/.*",
       "**/node_modules/**"
