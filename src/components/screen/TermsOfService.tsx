@@ -2,16 +2,6 @@ import './TermsOfService.css';
 import React, { Component } from 'react';
 
 class TermsOfService extends Component<any> {
-  public componentDidMount() {
-    if (this.props.match.path === '/') {
-      const location: object = {
-        pathname: '/tab/home',
-        state: {},
-      };
-      this.props.history.replace(location);
-    }
-  }
-
   public render() {
     return (
       <div className='root'>

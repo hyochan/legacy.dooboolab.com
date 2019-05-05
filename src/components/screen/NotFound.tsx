@@ -5,7 +5,7 @@ class NotFound extends Component<any> {
   public componentDidMount() {
     if (this.props.match.path === '/') {
       const location: object = {
-        pathname: '/tab/home',
+        pathname: '/404',
         state: {},
       };
       this.props.history.replace(location);
