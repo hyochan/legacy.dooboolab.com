@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { inject, observer } from 'mobx-react';
 
 import Home from '@screen/Home';
+import PrivacyAndPolicy from '@screen/PrivacyAndPolicy';
+import TermsOfService from '@screen/TermsOfService';
 import NotFound from '@screen/NotFound';
 
 @inject('store')
@@ -42,7 +44,9 @@ class RootStackNavigator extends Component<any, any> {
       <BrowserRouter>
         <div style={{ textAlign: 'center' }}>
           <Switch>
-            <Route path='/' component={Home} />
+            <Route exact={true} path='/' component={Home} />
+            <Route exact={true} path='/termsofservice' component={TermsOfService} />
+            <Route exact={true} path='/privacyandpolicy' component={PrivacyAndPolicy} />
             <Route component={NotFound} />
           </Switch>
         </div>
