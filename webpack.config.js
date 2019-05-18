@@ -21,7 +21,7 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', 'jsx'],
   },
   devServer: {
-    contentBase: __dirname + '/dist/',
+    contentBase: path.join(__dirname, 'dist'),
     inline: true,
     host: 'localhost',
     port: 8080,
@@ -34,58 +34,102 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader',
-            options: { presets: ['react', 'env', 'stage-0'] },
+            query: {
+              cacheDirectory: true,
+              presets: [
+                '@babel/preset-env',
+                '@babel/preset-react',
+                '@babel/preset-flow',
+              ],
+              plugins: [
+                ['@babel/plugin-proposal-decorators', { 'legacy': true }],
+                '@babel/plugin-proposal-function-sent',
+                '@babel/plugin-proposal-export-namespace-from',
+                '@babel/plugin-proposal-numeric-separator',
+                '@babel/plugin-proposal-throw-expressions',
+                ['@babel/plugin-proposal-class-properties', { 'loose': true }],
+                [
+                  '@babel/plugin-transform-runtime',
+                  {
+                    'helpers': true,
+                    'regenerator': false,
+                  },
+                ],
+              ],
+            },
           },
           {
             loader: 'ts-loader',
           },
         ],
-        exclude: [/node_modules/]
+        exclude: [/node_modules/],
       },
       {
         test: /\.js(x?)$/,
         use: [
           {
             loader: 'babel-loader',
-            options: { presets: ['react', 'env', 'stage-0'] },
+            query: {
+              cacheDirectory: true,
+              presets: [
+                '@babel/preset-env',
+                '@babel/preset-react',
+                '@babel/preset-flow',
+              ],
+              plugins: [
+                ['@babel/plugin-proposal-decorators', { 'legacy': true }],
+                '@babel/plugin-proposal-function-sent',
+                '@babel/plugin-proposal-export-namespace-from',
+                '@babel/plugin-proposal-numeric-separator',
+                '@babel/plugin-proposal-throw-expressions',
+                ['@babel/plugin-proposal-class-properties', { 'loose': true }],
+                [
+                  '@babel/plugin-transform-runtime',
+                  {
+                    'helpers': true,
+                    'regenerator': false,
+                  },
+                ],
+              ],
+            },
           },
         ],
-        exclude: [/node_modules/]
+        exclude: [/node_modules/],
       },
       {
         test: /\.css$/,
-        use: [ 
+        use: [
           'style-loader',
-          { 
+          {
             loader: 'css-loader',
-            options: { 
+            options: {
               importLoaders: 1,
               // modules: true,
               // you can remove the comment in above code if you wanna uglify css classnames to scope to specific component
             },
           },
-          { 
-            loader: 'postcss-loader', 
+          {
+            loader: 'postcss-loader',
             options: {
               ident: 'postcss',
               plugins: [
                 require('postcss-import')(),
                 require('postcss-cssnext')(),
-              ]
+              ],
             },
           },
-        ]
+        ],
       },
       {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
             loader: 'file-loader',
-            options: {}
-          }
-        ]
-      }
-    ]
+            options: {},
+          },
+        ],
+      },
+    ],
   },
   devtool: 'inline-source-map',
 };
