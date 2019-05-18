@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { CooniBtn } from '@shared/CooniBtn';
+import { CooniBtn } from '../CooniBtn';
 
 // const component = shallow(
 //     <CooniBtn white={true} btnTxt='CooniBtn 1st test' />

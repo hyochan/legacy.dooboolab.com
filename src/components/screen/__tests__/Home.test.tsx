@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow, render } from 'enzyme';
 
-import Store from '@stores/appStore';
-import { Home } from '@screen/Home';
+import Store from '../../../stores/appStore';
+import { Home } from '../Home';
 
 // test for the container page in dom
 describe('Tab1 page DOM rendering test', () => {

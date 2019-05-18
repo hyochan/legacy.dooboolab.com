@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import TxtInputLabel from '@shared/TxtInputLabel';
+import TxtInputLabel from '../TxtInputLabel';
 
 describe('TxtInputLabel component test', () => {
   const component = shallow(
