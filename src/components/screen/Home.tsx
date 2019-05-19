@@ -433,11 +433,11 @@ export class Home extends Component<any, any> {
             </a>
           </div>
         </div>
-        {/* Tae Yun */}
+        {/* Tae Yoon */}
         <div className='box'>
           <img
             className='pic'
-            src={require('@assets/images/taeyun.jpg')}
+            src={require('@assets/images/taeyoon.jpg')}
           />
           <p className='name'>taeyun</p>
           <p className='position'>designer</p>
