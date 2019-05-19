@@ -23,6 +23,7 @@
     "noUnusedLocals": false,
     "noImplicitAny": false,
     "strictNullChecks": false,
+    "esModuleInterop": true,
     "strict": true,
     "target": "es5",
     "paths": {
@@ -33,7 +34,7 @@
       "@stores/*": ["./src/stores/*"],
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./assets/*"],
-      "@constants/*" : ["./src/constants/*"],
+      "@constants/*": ["./src/constants/*"],
       "@shared/*": ["./src/components/shared/*"],
       "@App_dev": ["./App_dev"],
       "@app": ["./src/app"]
