@@ -1,7 +1,7 @@
 module.exports = {
   'moduleNameMapper': {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/test/fileTransformer.js',
-    '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
+    '\\.(css|less)$': '<rootDir>/test/fileTransformer.js',
     '@apis/(.*)': '<rootDir>/src/apis/$1',
     '@screen/(.*)': '<rootDir>/src/screen/$1',
     '@navigation/(.*)': '<rootDir>/src/navigation/$1',
