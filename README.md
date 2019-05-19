@@ -1,7 +1,6 @@
-# DOOBOOLAB.COM
-## MADE FROM REACT-TYPESCRIPT-WEBPACK-STARTER
-> Branch project for desktop ui
-* This is different prototype comparing to the master branch and will not be merged and will be left standalone. This is for those of you who wants more example for responsive react web project.
+# [DOOBOOLAB.COM](https://dooboolab.com)
+[![codecov](https://codecov.io/gh/dooboolab/dooboolab.com/branch/master/graph/badge.svg)](https://codecov.io/gh/dooboolab/dooboolab.com)
+[![CircleCI](https://circleci.com/gh/dooboolab/dooboolab.com.svg?style=svg)](https://circleci.com/gh/dooboolab/dooboolab.com)
 
 > Specification
 * postcss
