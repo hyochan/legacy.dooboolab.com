@@ -10,7 +10,8 @@
     "test": "jest --coverage",
     "production": "NODE_ENV=production webpack -p --config webpack.config.prod.js",
     "lint": "eslint **/*.ts && eslint **/*.tsx",
-    "codecov": "codecov"
+    "codecov": "codecov",
+    "deploy": "firebase deploy --only hosting"
   },
   "author": "dooboolab",
   "license": "MIT",
