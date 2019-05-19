@@ -1,6 +1,18 @@
 module.exports = {
   'moduleNameMapper': {
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/__mocks__/fileMock.js',
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/test/fileTransformer.js',
+    '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
+    '@apis/(.*)': '<rootDir>/src/apis/$1',
+    '@screen/(.*)': '<rootDir>/src/screen/$1',
+    '@navigation/(.*)': '<rootDir>/src/navigation/$1',
+    '@models/(.*)': '<rootDir>/src/models/$1',
+    '@stores/(.*)': '<rootDir>/src/stores/$1',
+    '@utils/(.*)': '<rootDir>/src/utils/$1',
+    '@assets/(.*)': '<rootDir>/src/assets/$1',
+    '@constants/(.*)': '<rootDir>/src/constants/$1',
+    '@shared/(.*)': '<rootDir>/src/shared/$1',
+    '@App_dev': '<rootDir>/src/App_dev',
+    '@app': '<rootDir>/src/app',
   },
   'coverageDirectory': './coverage/',
   'coveragePathIgnorePatterns': [

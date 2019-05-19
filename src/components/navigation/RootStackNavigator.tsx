@@ -10,10 +10,6 @@ import NotFound from '@screen/NotFound';
 @inject('store')
 class RootStackNavigator extends Component<any, any> {
   public componentDidMount() {
-    console.log('location');
-    console.log(this.props);
-    console.log(`userLang: ${this.props.store.locale.$LANG}`);
-
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
