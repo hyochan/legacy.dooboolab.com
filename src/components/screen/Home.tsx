@@ -219,36 +219,7 @@ export class Home extends Component<any, any> {
 
         <section id='member' className='member'>
           <p className='title'>{ getString('DOOBOOLAB_MEMBER') }</p>
-          <div className='content'>
-            <div className='box'>
-              <img
-                className='pic'
-                src={require('@assets/images/hyochan.jpg')}
-              />
-              <p className='name'>Hyochan Jang</p>
-              <p className='position'>Software Engineer</p>
-              <p className='introduction'>Korea Univ.<br/>KT R&D Center<br/>MOIN<br/>QNV</p>
-              <div className='underline'/>
-              <div className='sns'>
-                <a href='https://www.linkedin.com/in/hyochan-jang-8723a5108/'>
-                  <i aria-hidden='true'>
-                  <FontAwesome
-                    className='fa-linkedin'
-                    name='linkedin'
-                  />
-                  </i>
-                </a>
-                <a href='https://github.com/dooboolab'>
-                  <i aria-hidden='true'>
-                  <FontAwesome
-                    className='fa-github'
-                    name='github'
-                  />
-                  </i>
-                </a>
-              </div>
-            </div>
-          </div>
+          {this.renderMembers()}
           <button className='btn'>WHO's NEXT?</button>
         </section>
 
@@ -278,6 +249,227 @@ export class Home extends Component<any, any> {
         <footer className='footer'>
           <p>©2017 Dooboolab, All Rights Reserved</p>
         </footer>
+      </div>
+    );
+  }
+
+  private renderMembers() {
+    return (
+      <div className='content'>
+        {/* Hyo Chan Jang */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/hyochan.jpg')}
+          />
+          <p className='name'>hyochan</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href='https://www.linkedin.com/in/hyochan-jang-8723a5108/'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://twitter.com/dooboolab'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-twitter'
+                name='twitter'
+              />
+              </i>
+            </a>
+            <a href='https://github.com/dooboolab'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* Mars */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/mars.jpg')}
+          />
+          <p className='name'>mars</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href=''>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://twitter.com'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-twitter'
+                name='twitter'
+              />
+              </i>
+            </a>
+            <a href='https://github.com'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* Geoseong */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/geoseong.jpg')}
+          />
+          <p className='name'>geoseong</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href=''>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://twitter.com'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-twitter'
+                name='twitter'
+              />
+              </i>
+            </a>
+            <a href='https://github.com/geoseong'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* Yong Pil */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/yongpil.jpg')}
+          />
+          <p className='name'>yongpil</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href='https://www.linkedin.com/in/yongpil-moon-57877b147/'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://github.com/YongPilMoon'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* Hak Jun */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/hakjun.jpg')}
+          />
+          <p className='name'>hakjun</p>
+          <p className='position'>designer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href=''>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://twitter.com'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-twitter'
+                name='twitter'
+              />
+              </i>
+            </a>
+            <a href='https://github.com/hakjun'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* Tae Yun */}
+        <div className='box'>
+          <img
+            className='pic'
+            src={require('@assets/images/taeyun.jpg')}
+          />
+          <p className='name'>taeyun</p>
+          <p className='position'>designer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline'/>
+          <div className='sns'>
+            <a href=''>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-linkedin'
+                name='linkedin'
+              />
+              </i>
+            </a>
+            <a href='https://twitter.com'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-twitter'
+                name='twitter'
+              />
+              </i>
+            </a>
+            <a href='https://github.com/taeyun'>
+              <i aria-hidden='true'>
+              <FontAwesome
+                className='fa-github'
+                name='github'
+              />
+              </i>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
