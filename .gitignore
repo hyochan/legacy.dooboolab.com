@@ -5,3 +5,5 @@ node_modules/
 !/dist/*.html
 !/dist/favicon.ico
 coverage/
+package-lock.json
+
