@@ -412,6 +412,26 @@ export class Home extends Component<any, any> {
             </a>
           </div>
         </div>
+        {/* huy */}
+        <div className='box'>
+          <img className='pic' src={require('@assets/images/huy.jpg')} />
+          <p className='name'>huy</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline' />
+          <div className='sns'>
+            <a href='http://www.linkedin.com/in/huy1965'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-linkedin' name='linkedin' />
+              </i>
+            </a>
+            <a href='https://github.com/kty1965'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-github' name='github' />
+              </i>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
