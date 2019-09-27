@@ -4,5 +4,5 @@ import * as functions from 'firebase-functions';
 // // https://firebase.google.com/docs/functions/typescript
 //
 export const joinSlack = functions.https.onRequest((request, response) => {
- response.redirect('https://join.slack.com/t/dooboolab/shared_invite/enQtNTAwODgxNDExNTg2LTMzYTNlZmE2M2FlNGNlYWU1NzcwZTY0NTI1NWMyYmU5NWViNzQxNjhiYzE0MjdjNzg1MjhlM2VhM2U4YWRhZjM');
+ response.redirect('https://join.slack.com/t/dooboolab/shared_invite/enQtNTAwODgxNDExNTg2LTkzNTA3ZmJmZDM4YzQ3ZWEyNTI3MjdkZjJmYjNhNjlmY2UzYjMzZTJjMjVkMmIzM2M1Y2QyZjlkN2NkZjhmZWE');
 });
