@@ -270,7 +270,7 @@ export class Home extends Component<any, any> {
           {/* <p className='introduction'></p> */}
           <div className='underline' />
           <div className='sns'>
-            <a href='https://www.linkedin.com/in/hyochan-jang-8723a5108/'>
+            <a href='https://www.linkedin.com/in/hyo-chan-jang-b88a82192/'>
               <i aria-hidden='true'>
                 <FontAwesome className='fa-linkedin' name='linkedin' />
               </i>
