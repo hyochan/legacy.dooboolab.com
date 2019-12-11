@@ -432,6 +432,46 @@ export class Home extends Component<any, any> {
             </a>
           </div>
         </div>
+        {/* minseok */}
+        <div className='box'>
+          <img className='pic' src={require('@assets/images/minseok.png')} />
+          <p className='name'>minseok</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline' />
+          <div className='sns'>
+            <a href='https://www.linkedin.com/in/minseok-jeong-413a43147'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-linkedin' name='linkedin' />
+              </i>
+            </a>
+            <a href='https://github.com/Sandwichj'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-github' name='github' />
+              </i>
+            </a>
+          </div>
+        </div>
+        {/* jeff */}
+        <div className='box'>
+          <img className='pic' src={require('@assets/images/jeff.png')} />
+          <p className='name'>jeff</p>
+          <p className='position'>developer</p>
+          {/* <p className='introduction'></p> */}
+          <div className='underline' />
+          <div className='sns'>
+            <a href='https://github.com/jeffgukang'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-linkedin' name='linkedin' />
+              </i>
+            </a>
+            <a href='https://www.linkedin.com/in/jeff-myeung-gu-kang-33763821'>
+              <i aria-hidden='true'>
+                <FontAwesome className='fa-github' name='github' />
+              </i>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
