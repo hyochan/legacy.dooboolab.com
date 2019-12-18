@@ -13,17 +13,19 @@
     "public": "dist",
     "rewrites": [
       {
-        "source": "/joinSlack", "function": "joinSlack"
+        "source": "/joinSlack",
+        "function": "joinSlack"
+      },
+      {
+        "source": "/joinRNSeoul",
+        "function": "joinRNSeoul"
       },
       {
         "source": "**",
         "destination": "/index.html"
       }
     ],
-    "ignore": [
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "ignore": ["**/.*", "**/node_modules/**"]
   },
   "storage": {
     "rules": "storage.rules"
