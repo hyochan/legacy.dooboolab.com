@@ -14,6 +14,7 @@ Since we are moving forward for an `ideal` society, we expect all contributors t
 3. Insulting one's parents or family members
 4. Any kind of political activities
    - Speaking on other's opinion rather than your own.
+   - Judging on someone and speaking out loud.
 5. Any violence (verbal, written form, behavioral, physical)
 6. Aggressive tendency of attitudes
    - We want all people to feel safe in our community.
