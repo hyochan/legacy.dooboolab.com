@@ -20,6 +20,7 @@ Since we are moving forward for an `ideal` society, we expect all contributors t
    - We want all people to feel safe in our community.
 7. Belittling others
 8. Being a copycat
+   - Specify bibliography or any other reference. What inspired you?
 9. Being tricky
 10. Any behavior considered harmful to the community
 
