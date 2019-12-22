@@ -28,7 +28,7 @@
   & hr {
     width: 150px;
     height: 2px;
-    background-color: #2196F3;
+    background-color: #2196f3;
     border: 0;
     margin-bottom: 80px;
   }
@@ -44,7 +44,7 @@
   color: #fff;
   border-radius: 4px;
   text-transform: uppercase;
-  background-color: #2196F3;
+  background-color: #2196f3;
   font-weight: 800;
   text-align: center;
 }
@@ -58,7 +58,6 @@
   font-weight: 800;
   text-align: center;
 }
-
 
 .btn-contact {
   cursor: pointer;
@@ -83,7 +82,7 @@
     height: 12px;
     margin-left: 42px;
     font-size: 12px;
-    line-height: 1.0;
+    line-height: 1;
     color: #ffffff;
 
     @media (--desktop) {
@@ -162,7 +161,7 @@
         margin: 0 5px;
         height: 12px;
         font-size: 12px;
-        line-height: 1.0;
+        line-height: 1;
         text-align: center;
         @media (--desktop) {
           width: 82px;
@@ -174,10 +173,10 @@
         }
       }
       & li:first-child {
-        margin-left: 0;  
+        margin-left: 0;
       }
       & li:last-child {
-        margin-right: 0;  
+        margin-right: 0;
       }
     }
   }
@@ -285,7 +284,7 @@
 
       & .title {
         font-size: 10px;
-        line-height: 1.0;
+        line-height: 1;
         color: #b03ee5;
 
         display: flex;
@@ -381,7 +380,7 @@
 
     & .title {
       font-size: 10px;
-      line-height: 1.0;
+      line-height: 1;
       color: #b03ee5;
 
       display: flex;
@@ -507,7 +506,7 @@
     align-items: center;
     width: 95vw;
     margin-top: 40px;
-    
+
     @media (--desktop) {
       margin-top: 100px;
       padding-bottom: 40px;
@@ -516,7 +515,7 @@
     & .title {
       height: 18px;
       font-size: 10px;
-      line-height: 1.0;
+      line-height: 1;
       color: #b03ee5;
 
       @media (--desktop) {
@@ -526,7 +525,7 @@
     & .info {
       margin-top: 20px;
       font-size: 16px;
-      line-height: 1.0;
+      line-height: 1;
       text-align: center;
 
       @media (--desktop) {
@@ -577,7 +576,7 @@
         background-color: #b13ee5;
         box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
         font-size: 10px;
-        line-height: 1.0;
+        line-height: 1;
         text-align: center;
         color: #ffffff;
 
@@ -612,152 +611,6 @@
   }
 }
 
-/*--------------------
-  member Section
---------------------*/
-.member {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  align-self: stretch;
-  background-color: #3c96d2;
-  & .title {
-    margin-top: 80px;
-    font-size: 14px;
-    line-height: 1.0;
-    text-align: center;
-    color: #ffffff;
-    @media (--desktop) {
-      margin-top: 95px;
-      font-size: 18px;
-    }
-  }
-  & .content {
-    margin-top: 30px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    @media (--desktop) {
-      margin-left: 32px;
-      margin-right: 32px;
-
-      justify-content: flex-start;
-      flex-direction: row;
-    }
-    & .box {
-      margin-left: 10px;
-      margin-top: 10px;
-      width: 200px;
-      height: 284px;
-      background-color: #ffffff;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      & .pic {
-        width: 68px;
-        height: 82px;
-        margin-top: 30px;
-        border-radius: 50%;
-        background-color: #9db2f7;
-      }
-      & .name {
-        margin-top: 24px;
-        height: 18px;
-        font-size: 10px;
-        font-weight: bold;
-        line-height: 1.0;
-        text-align: center;
-        color: #222222;
-
-        @media (--desktop) {
-          font-size: 18px;
-        }
-      }
-      & .position {
-        margin-top: 10px;
-        font-size: 8px;
-        font-style: italic;
-        line-height: 1.0;
-        text-align: center;
-        color: #b03ee5;
-
-        @media (--desktop) {
-          font-size: 14px;
-        }
-      }
-      & .introduction {
-        margin-top: 16px;
-        margin-bottom: 16px;
-        width: 137px;
-        height: 56px;
-        font-size: 8px;
-        line-height: 1.57;
-        text-align: center;
-        color: #a2a2a2;
-
-        @media (--desktop) {
-          font-size: 14px;
-        }
-      }
-      & .underline {
-        margin-top: 40px;
-        width: 56px;
-        height: 2px;
-        background-color: #b03ee5;
-      }
-      & .sns {
-        margin-top: 14px;
-        padding-left: 40px;
-        padding-right: 40px;
-        display: flex;
-        align-self: stretch;
-        flex-direction: row;
-        justify-content: space-around;
-        & i {
-          color: #8e2dba;
-          width: 8px;
-          height: 8px;
-          cursor: pointer;
-
-          @media (--desktop) {
-            margin-top: 17.1px;
-            width: 14.5px;
-            height: 14.5px;
-          }
-        }
-      }
-    }
-  }
-  & .btn {
-    margin-top: 60px;
-    margin-bottom: 80px;
-    width: 200px;
-    height: 48px;
-    border-radius: 100px;
-    font-size: 11px;
-    line-height: 1.0;
-    border: solid 2px #ffffff;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-    cursor: pointer;
-
-    @media (--desktop) {
-      margin-top: 72px;
-      margin-bottom: 115px;
-      width: 200px;
-      height: 48px;
-      border-radius: 100px;
-      font-size: 18px;
-    }
-  }
-}
-
 /*---------------------
   Contact Section
 ---------------------*/
@@ -778,7 +631,7 @@
 
   & .title {
     font-size: 11px;
-    line-height: 1.0;
+    line-height: 1;
     color: #b03ee5;
 
     display: flex;
@@ -830,7 +683,7 @@
 .footer {
   align-self: stretch;
   color: #fff;
-  background-color: rgb(57,61,122);
+  background-color: rgb(57, 61, 122);
   text-align: center;
   height: 48px;
   padding: 0;
@@ -846,7 +699,7 @@
 
   & p {
     font-size: 11px;
-    line-height: 1.0;
+    line-height: 1;
     text-align: center;
     color: #ffffff;
 

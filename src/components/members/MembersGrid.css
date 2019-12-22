@@ -1,0 +1,110 @@
+@import '../../root.css';
+
+.content {
+  margin: 30px auto;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  @media (--desktop) {
+    margin-left: 32px;
+    margin-right: 32px;
+
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  @media (--mobile) {
+    margin-left: 32px;
+    margin-right: 32px;
+
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  & .box {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 284px;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .pic {
+      width: 68px;
+      height: 82px;
+      margin-top: 30px;
+      border-radius: 50%;
+      background-color: #9db2f7;
+    }
+    & .name {
+      margin-top: 24px;
+      height: 18px;
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 1;
+      text-align: center;
+      color: #222222;
+
+      @media (--desktop) {
+        font-size: 18px;
+      }
+    }
+    & .position {
+      margin-top: 10px;
+      font-size: 8px;
+      font-style: italic;
+      line-height: 1;
+      text-align: center;
+      color: #b03ee5;
+
+      @media (--desktop) {
+        font-size: 14px;
+      }
+    }
+    & .introduction {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      width: 137px;
+      height: 56px;
+      font-size: 8px;
+      line-height: 1.57;
+      text-align: center;
+      color: #a2a2a2;
+
+      @media (--desktop) {
+        font-size: 14px;
+      }
+    }
+    & .underline {
+      margin-top: 40px;
+      width: 56px;
+      height: 2px;
+      background-color: #b03ee5;
+    }
+    & .sns {
+      margin-top: 14px;
+      padding-left: 40px;
+      padding-right: 40px;
+      display: flex;
+      align-self: stretch;
+      flex-direction: row;
+      justify-content: space-around;
+      & i {
+        color: #8e2dba;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+
+        @media (--desktop) {
+          margin-top: 17.1px;
+          width: 14.5px;
+          height: 14.5px;
+        }
+      }
+    }
+  }
+}

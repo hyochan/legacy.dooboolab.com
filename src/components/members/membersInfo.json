@@ -1,0 +1,84 @@
+[
+  {
+    "name": "hyochan",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/hyo-chan-jang-b88a82192/",
+      "twitter": "https://twitter.com/dooboolab",
+      "github": "https://github.com/dooboolab"
+    }
+  },
+  {
+    "name": "mars",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/mars-kim-6633b4187/",
+      "github": "https://github.com/marsinearth"
+    }
+  },
+  {
+    "name": "geoseong",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/tae-seong-park-0699b348",
+      "github": "https://github.com/geoseong"
+    }
+  },
+  {
+    "name": "yongpil",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/yongpil-moon-57877b147",
+      "github": "https://github.com/YongPilMoon"
+    }
+  },
+  {
+    "name": "gordon",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/dong-kyun-ko-5a2819171/",
+      "github": "https://github.com/godon019"
+    }
+  },
+  {
+    "name": "jongtaek",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/jongtaek-choi-259796117/",
+      "github": "https://github.com/jongtaekChoi"
+    }
+  },
+  {
+    "name": "youngsoo",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/youngsu-han/",
+      "twitter": "https://twitter.com/pEy69B9Aest8VRT",
+      "github": "https://github.com/heyman333"
+    }
+  },
+  {
+    "name": "huy",
+    "position": "developer",
+    "sns": {
+      "linkedin": "http://www.linkedin.com/in/huy1965",
+      "github": "https://github.com/kty1965"
+    }
+  },
+  {
+    "name": "minseok",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/minseok-jeong-413a43147",
+      "github": "https://github.com/Sandwichj"
+    }
+  },
+  {
+    "name": "jeff",
+    "position": "developer",
+    "sns": {
+      "linkedin": "https://www.linkedin.com/in/jeff-myeung-gu-kang-33763821",
+      "github": "https://github.com/jeffgukang"
+    }
+  }
+]
