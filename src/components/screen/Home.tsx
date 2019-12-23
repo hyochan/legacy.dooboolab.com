@@ -249,7 +249,7 @@ export class Home extends Component<any, any> {
         </section>
 
         <footer className="footer">
-          <p>©2017 Dooboolab, All Rights Reserved</p>
+          <p>©2019 Dooboolab, All Rights Reserved</p>
         </footer>
       </div>
     );

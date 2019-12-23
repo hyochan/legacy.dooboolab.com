@@ -1,8 +1,7 @@
 @import '../../root.css';
 
 .content {
-  margin: 30px auto;
-  width: 95%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,12 +22,10 @@
   }
 
   & .box {
-    margin-left: 10px;
-    margin-top: 10px;
     width: 200px;
     height: 284px;
     background-color: #ffffff;
-
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;

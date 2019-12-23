@@ -1,5 +1,6 @@
 import './MembersGrid.css';
 
+import Masonry, { MasonryOptions } from 'react-masonry-component';
 import React, { FC } from 'react';
 
 import FontAwesome from 'react-fontawesome';
@@ -36,6 +37,17 @@ interface Member {
   };
 }
 
+const masonryOptions: MasonryOptions = {
+  transitionDuration: 0,
+  gutter: 10,
+  fitWidth: true,
+  columnWidth: 200,
+};
+
+const masonryStyle = {
+  margin: '30 auto',
+};
+
 const MemberBox: FC<Member> = ({ name, position, sns }) => (
   <div className="box">
     <img className="pic" src={images[name]} />
@@ -57,10 +69,15 @@ const MemberBox: FC<Member> = ({ name, position, sns }) => (
 
 export default function MembersGrid() {
   return (
-    <div className="content">
+    <Masonry
+      className="content"
+      enableResizableChildren
+      options={masonryOptions}
+      style={masonryStyle}
+    >
       {MemberData.map((member: Member) => (
         <MemberBox key={member.name} {...member} />
       ))}
-    </div>
+    </Masonry>
   );
 }
