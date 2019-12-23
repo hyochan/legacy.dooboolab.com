@@ -9,7 +9,7 @@ We expect `dooboolab`'s contributors to act professionally and respectfully. All
 Since we are moving forward for an `ideal` society, we expect all contributors to avoid bad behaviors affected by (believed to be inherited/still existing) bad culture (examples below).
 
 1. Discrimination
-    - Including `racism`.
+   - Including `racism`.
 2. Pointing out(judging) on other's appearance
 3. Insulting one's parents or family members
 4. Any kind of political activities
@@ -22,28 +22,30 @@ Since we are moving forward for an `ideal` society, we expect all contributors t
 8. Being a copycat
    - Specify bibliography or any other reference. What inspired you?
 9. Being tricky
-10. Any behavior considered harmful to the community
+10. Do not blame others before you look at yourself
+11. Any behavior considered harmful to the community
 
 Please contact `dooboolab`'s member if you face any of above in our community. We won't tolerate for those behavior inside and outside our community.
 
 We hope we can work like future in our community. Below are recommended behaviors.
 
 1. Respect people
-    - Never look down on someone.
-    - Talk at the same eye level.
+   - Never look down on someone.
+   - Talk at the same eye level.
 2. Help others
-    - If you want to get help of others, try to be helpful yourself.
+   - If you want to get help of others, try to be helpful yourself.
 3. Don't be afraid
-    - We expect people not to shy away from giving their opinions. We want to hear the true voice whether it's considered beneficial.
+   - We expect people not to shy away from giving their opinions. We want to hear the true voice whether it's considered beneficial.
 4. Try not to argue on mistake
-    - Anyone can make mistakes. Be wise with those faults and be more helpful rather than just blaming on it.
+   - Anyone can make mistakes. Be wise with those faults and be more helpful rather than just blaming on it.
 5. Grow with the community and take advantage of it.
-    - Never try to seek for your own resources in our community.
-    - Never ask for your homework to `contributors`
-    - Never ask for your private work to `contributors`
-    - Only discuss on the problems we are solving together.
-6. Always train yourself to improve communication skills, which is a challenge for everyone.
-    - Try to understand the point of speaker before making yours.
-    - Again talk at the same eye level.
+   - Never try to seek for your own resources in our community.
+   - Never ask for your homework to `contributors`
+   - Never ask for your private work to `contributors`
+   - Only discuss on the problems we are solving together.
+6. Try to be rational rather than emotional.
+7. Always train yourself to improve communication skills, which is a challenge for everyone.
+   - Try to understand the point of speaker before making yours.
+   - Again talk at the same eye level.
 
 `Ideal` does not  mean `impossible`. It is the future which we should bring up. `dooboolab` community pursues accelerating civil and desirable values.

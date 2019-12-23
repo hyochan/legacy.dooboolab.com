@@ -20,7 +20,8 @@ Since we are moving forward for an `ideal` society, we expect all contributors t
 8. Being a copycat
    - Specify bibliography or any other reference. What inspired you?
 9. Being tricky
-10. Any behavior considered harmful to the community
+10. Do not blame others before you look at yourself
+11. Any behavior considered harmful to the community
 
 Please contact `dooboolab`'s member if you face any of above in our community. We won't tolerate for those behavior inside and outside our community.
 
@@ -40,7 +41,8 @@ We hope we can work like future in our community. Below are recommended behavior
     - Never ask for your homework to `contributors`
     - Never ask for your private work to `contributors`
     - Only discuss on the problems we are solving together.
-6. Always train yourself to improve communication skills, which is a challenge for everyone.
+6. Try to be rational rather than emotional.
+7. Always train yourself to improve communication skills, which is a challenge for everyone.
     - Try to understand the point of speaker before making yours.
     - Again talk at the same eye level.
 
