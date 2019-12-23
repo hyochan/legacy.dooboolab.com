@@ -1,0 +1,45 @@
+@import '../../root.css';
+
+.member {
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  background-color: #3c96d2;
+  & .title {
+    margin-top: 80px;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+    @media (--desktop) {
+      margin-top: 95px;
+      font-size: 18px;
+    }
+  }
+
+  & .btn {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 200px;
+    height: 48px;
+    border-radius: 100px;
+    font-size: 11px;
+    line-height: 1;
+    border: solid 2px #ffffff;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+
+    @media (--desktop) {
+      margin-top: 72px;
+      margin-bottom: 115px;
+      width: 200px;
+      height: 48px;
+      border-radius: 100px;
+      font-size: 18px;
+    }
+  }
+}
