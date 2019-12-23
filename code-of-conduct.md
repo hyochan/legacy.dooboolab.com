@@ -50,4 +50,4 @@ We hope we can work like future in our community. Below are recommended behavior
 
 
 ### All Versions
-[Version 1](doc/code-of-conduct-v1.md)
+[Version 1](docs/code-of-conduct-v1.md)
