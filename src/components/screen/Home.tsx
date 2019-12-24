@@ -5,10 +5,14 @@ import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 
 import Carousel from 'nuka-carousel';
-import CooniBtn from '@shared/CooniBtn';
+// import CooniBtn from '@shared/CooniBtn';
 import Members from '../members';
 
 export class Home extends Component<any, any> {
+  static defaultProps = {
+    thisYear: new Date().getFullYear(),
+  };
+
   constructor(props) {
     super(props);
     this.state = {};
@@ -249,7 +253,7 @@ export class Home extends Component<any, any> {
         </section>
 
         <footer className="footer">
-          <p>©2019 Dooboolab, All Rights Reserved</p>
+          <p>©{this.props.thisYear} Dooboolab, All Rights Reserved</p>
         </footer>
       </div>
     );
