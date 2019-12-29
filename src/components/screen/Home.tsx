@@ -253,7 +253,7 @@ export class Home extends Component<any, any> {
         </section>
 
         <footer className="footer">
-          <p>©{this.props.thisYear} Dooboolab, All Rights Reserved</p>
+          <p>© 2017-{this.props.thisYear} Dooboolab, All Rights Reserved</p>
         </footer>
       </div>
     );
