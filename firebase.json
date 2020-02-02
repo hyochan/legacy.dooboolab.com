@@ -21,6 +21,10 @@
         "function": "joinRNSeoul"
       },
       {
+        "source": "/joinGraphQLSeoul",
+        "function": "joinGraphQLSeoul"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
