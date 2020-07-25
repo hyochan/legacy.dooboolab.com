@@ -1,7 +1,6 @@
-# [DOOBOOLAB.COM](https://dooboolab.com)
-[![codecov](https://codecov.io/gh/dooboolab/dooboolab.com/branch/master/graph/badge.svg)](https://codecov.io/gh/dooboolab/dooboolab.com)
-[![CircleCI](https://circleci.com/gh/dooboolab/dooboolab.com.svg?style=shield)](https://circleci.com/gh/dooboolab/dooboolab.com)
+# [DOOBOOLAB.COM (V1)](https://legacy.dooboolab.com)
 
+> This has been deprecated since `March 2020`. This is hosted in [legacy.dooboolab.com](https://legacy.dooboolab.com).
 ![image](https://user-images.githubusercontent.com/27461460/57982927-af7e3100-7a86-11e9-95fa-da95a643036b.png)
 
 > Specification
@@ -13,4 +12,3 @@
 * localization
 * mobx
 * data models
-
